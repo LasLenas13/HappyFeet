@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+html * {
+  font-family: 'Indie Flower';
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  background-color: #fb8500;
+}
+
+banner {
+  height: 40px;
+  margin-left: 10px;
+  display: flex;
+  }
+
+.strip {
+  display: flex;
+  width: 475px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+header {
+  height: 250px;
+  background-color: #fcba03;
+  color: green;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+  }
+
+img {
+  height: 200px;
+  margin-top: 25px;
+}
+
+.shoe-type:hover {
+  color: purple;
+  font-size: 45px;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.cart {
+  width: 60px;
+  height: 60px;
+  padding: 17px;
+  background-color: #76c893;
+  color: white;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 50%;
+}
+
+#checkout{
+  height: 30px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: calc(100vh - 175px);
+  background-image: url("https://travel.home.sndimg.com/content/dam/images/travel/fullset/2012/08/24/a0/us-hiking-trails_ss_001.rend.hgtvcom.966.725.suffix/1491580965291.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shoe-type-pic {
+  height: 150px;
+}
+
+.shoe-card {
+  height: 350px;
+  width: 200px;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-cart-btn {
+  border-radius: 10px;
+}
+
+.add-cart-btn:hover {
+  font-size: 20px;
+  box-shadow: 0 0 55px #fb6f92;
+}
+
+footer {
+ background-color: tan;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
